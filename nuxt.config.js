@@ -14,7 +14,18 @@ export default {
         content: process.env.npm_package_description || ''
       }
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      {
+        rel: 'stylesheet',
+        href:
+          'https://fonts.googleapis.com/css?family=Bungee|Teko:600|Work+Sans&display=swap'
+      },
+      {
+        rel: 'stylesheet',
+        href: 'https://fonts.googleapis.com/icon?family=Material+Icons'
+      }
+    ]
   },
   /*
    ** Customize the progress-bar color
@@ -23,7 +34,7 @@ export default {
   /*
    ** Global CSS
    */
-  css: [],
+  css: ['~/assets/global.css'],
   /*
    ** Plugins to load before mounting the App
    */

@@ -1,12 +1,12 @@
 html {
   font-size: 16px;
 }
-@media (max-width: 900px) {
+@media screen and (max-width: 1300px) {
   html {
     font-size: 14px;
   }
 }
-@media (max-width: 400px) {
+@media screen and (max-width: 400px) {
   html {
     font-size: 10px;
   }
@@ -25,7 +25,7 @@ h3 {
 }
 
 p {
-  font-family: 'Work Sans';
+  font-family: 'Quicksand';
   font-size: 12px;
   line-height: 16px;
 }

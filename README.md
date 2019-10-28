@@ -1,10 +1,12 @@
-# blog-apex-nuxt
+### Tâches
 
-> My impressive Nuxt.js project
+- Faire le composant pour chaque breadcrumb + animation au changement
+
+  https://stackoverflow.com/questions/46563852/vue-js-css-transition-on-class-change
 
 ## Build Setup
 
-``` bash
+```bash
 # install dependencies
 $ yarn install
 

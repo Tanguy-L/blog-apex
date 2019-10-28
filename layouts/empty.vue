@@ -1,17 +1,11 @@
 <template>
   <div>
-    <HeaderApp />
     <nuxt />
   </div>
 </template>
 
 <script>
-import HeaderApp from '@/components/Header.vue'
-export default {
-  components: {
-    HeaderApp
-  }
-}
+export default {}
 </script>
 
 <style>

@@ -8,8 +8,8 @@
     <div class="background-button margin-top">
       <div class="button-home">
         <button class="button-home-text">Patchnote du site</button>
+        <nuxt-link class="link-home" to="/patchnote"></nuxt-link>
       </div>
-      <nuxt-link class="link-home" to="/patchnote"></nuxt-link>
     </div>
     <div class="background-button margin-small-top">
       <div class="button-home">
@@ -89,7 +89,6 @@ h1 {
 
 .background-button:hover {
   cursor: pointer;
-  background: rgb(85, 85, 85);
 }
 
 .background-button {
@@ -97,29 +96,32 @@ h1 {
   position: relative;
   width: 500px;
   height: 64px;
-  background: rgb(255, 255, 255);
   box-sizing: border-box;
-  clip-path: polygon(0% 0, 100% 0%, 95% 100%, 0 100%);
-  filter: drop-shadow(30px 10px 4px rgb(0, 0, 0));
   transition: all 0.2s;
 }
 
-.background-button div {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 490px;
-  height: 54px;
-  background: url('../assets/button.png');
-  opacity: 0.96;
-  clip-path: polygon(0% 0, 100% 0%, 96% 100%, 0 100%);
-  z-index: 5;
-}
-
 .button-home {
+  position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 490px;
+  height: 54px;
+  top: 0;
+  left: -15px;
+  z-index: 5;
+  box-sizing: content-box;
+  border: 10px solid #ffffff;
+  border-left: none;
+  border-top: none;
+  background: url('../assets/button.png');
+  opacity: 0.96;
+  transform: skewX(-15deg);
+  transition: all 0.2s;
+}
+
+.button-home:hover {
+  border-color: #505050;
 }
 
 .button-home-text {
@@ -130,5 +132,6 @@ h1 {
   font-family: 'Teko', sans-serif;
   letter-spacing: 1px;
   font-weight: 100;
+  transform: skewX(15deg);
 }
 </style>

@@ -19,7 +19,7 @@ export default {
       {
         rel: 'stylesheet',
         href:
-          'https://fonts.googleapis.com/css?family=Bungee|Teko:300,400,600|Quicksand&display=swap'
+          'https://fonts.googleapis.com/css?family=Bungee|Teko:300,400,600|Quicksand|Raleway&display=swap'
       },
       {
         rel: 'stylesheet',

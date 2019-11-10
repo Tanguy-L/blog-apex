@@ -1,6 +1,10 @@
 <template>
   <header>
-    <nuxt-link class="container-nav" to="/lists">
+    <nuxt-link
+      v-if="$nuxt.$route.name === 'articles-slug'"
+      class="container-nav"
+      to="/lists"
+    >
       <i class="material-icons button-icon">keyboard_backspace</i>
       <p>Revenir à la page précédente</p>
     </nuxt-link>

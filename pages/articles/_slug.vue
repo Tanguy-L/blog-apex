@@ -1,16 +1,17 @@
 <template>
   <div>
     <Breadcrumb />
-    <h1>coucou</h1>
+    <ArticleContent />
   </div>
 </template>
 
 <script>
 import Breadcrumb from '@/components/BreadCrumbs'
-
+import ArticleContent from '@/components/ArticleContent.vue'
 export default {
   components: {
-    Breadcrumb
+    Breadcrumb,
+    ArticleContent
   }
 }
 </script>

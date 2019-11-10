@@ -1,7 +1,6 @@
 <template>
   <div class="container-main">
-    <HeaderApp />
-    <h1 class="title margin-left">Apex-Theory</h1>
+    <h1 class="title margin-left margin-top">Apex-Theory</h1>
     <h2 class="sub-title margin-left">
       Le lieu idéal pour trouver les meilleurs analyses et infos du jeu
     </h2>
@@ -20,18 +19,14 @@
     <div class="background-button margin-small-top">
       <div class="button-home">
         <button class="button-home-text">F.A.Q</button>
-        <nuxt-link class="link-home" to="/faq"></nuxt-link>
+        <nuxt-link class="link-home" to="/"></nuxt-link>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-import HeaderApp from '@/components/Header.vue'
 export default {
-  components: {
-    HeaderApp
-  },
   layout: 'empty'
 }
 </script>
